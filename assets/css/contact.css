@@ -1,0 +1,129 @@
+*{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #777777;
+}
+body{
+    background-image: url("../images/so-white.png");
+}
+li{
+    display: inline-block;
+    padding: 8px;
+    padding-top: 0px;
+    overflow: auto;
+    font-size: 1.22em;
+}
+ul{
+    position: absolute;
+    top: 5%;
+    right: 25%;
+}
+.name-box{
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    font-size: 2.3em;
+    margin-left: 25%;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+.header-container{
+    width: 95%;
+    padding: 2.5%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+    background-color: white;
+    border-bottom: 2px solid rgb(167, 160, 160);
+}
+.body-container{
+    margin-top: 2.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #777777;
+    height: 625px;
+}
+.body-header{
+    color: #4aaaa5;
+    font-size: 2.3em;
+    font-weight: bolder;
+    padding-top: .9em;
+    padding-left: 3%;
+    
+}
+.greyline{
+    margin-top: .6em;   
+    border-bottom: 2px solid #777777;
+    margin-bottom: .4em;
+    margin-right: 5%;
+}
+input[type=text]{
+    width: 95%;
+    padding: 10px 8px;
+    margin-bottom: .4em;
+    margin-top: .4em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #777777;
+}
+.user-form{
+    margin-left: 3%;
+    color: #777777;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font: bold;
+}
+textarea{
+    width: 95.5%;
+    padding: 10px 10px;
+    padding-bottom: 8%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    resize: none;
+    color: #777777;
+    margin-bottom: .6em;
+}
+.user-form-name-text, .user-form-email-text, .user-form-message-text{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+input[type=submit]{
+    margin-top: .15em;
+    padding-bottom: .8em;
+    padding-left: 1.7em;
+    padding-top: .8em;
+    padding-right: 1.7em;
+    background-color: teal;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+.footer {
+    position: fixed;
+    padding-top: 35px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #777777;
+    color: white;
+    text-align: center;
+}
+.greenfooter{
+    position: fixed;
+    padding-top: 8px;
+    left: 0;
+    bottom: 5.4%;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
