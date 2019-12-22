@@ -15,4 +15,7 @@ This Project was created by me (Aaron Williams) to display the basic ability to 
   1. portfolio.css
 
 ## Usage:
-download the Portfolio folder and open the html file named "Index.html" in your preffered browser.
+download the Portfolio folder and open the html file named "Index.html" in your preferred browser.
+
+Thank you for visiting.
+-Aaron Williams
